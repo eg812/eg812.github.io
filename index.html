@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleny Gervacio | Professional Portfolio</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+    <style>
+        /* --- CSS Variables for Rutgers Theme --- */
+        :root {
+            --bg-white: #FFFFFF;
+            --bg-light-gray: #F9F9F9;
+            --text-main: #212121;
+            --text-secondary: #555555;
+            --rutgers-scarlet: #cc0033;
+            --rutgers-dark: #a30029;
+            --border-color: #e0e0e0;
+        }
+
+        /* --- Global Reset & Typography --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-white);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4 {
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--rutgers-scarlet);
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--rutgers-dark);
+        }
+
+        section {
+            padding: 100px 5% 80px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: var(--rutgers-scarlet);
+            margin: 10px auto 0;
+        }
+
+        /* --- Navbar --- */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            z-index: 1000;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--text-main);
+        }
+
+        .logo span {
+            color: var(--rutgers-scarlet);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+            color: var(--text-main);
+        }
+
+        .nav-links a:hover {
+            color: var(--rutgers-scarlet);
+        }
+
+        /* --- Buttons --- */
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: var(--rutgers-scarlet);
+            color: var(--bg-white) !important;
+            border: 2px solid var(--rutgers-scarlet);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--rutgers-dark);
+            border-color: var(--rutgers-dark);
+            box-shadow: 0 4px 12px rgba(204, 0, 51, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--rutgers-scarlet) !important;
+            border: 2px solid var(--rutgers-scarlet);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--rutgers-scarlet);
+            color: var(--bg-white) !important;
+            transform: translateY(-2px);
+        }
+
+        /* --- Hero Section --- */
+        #home {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+            gap: 2rem;
+            padding-top: 120px;
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .hero-text h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        .typed-text {
+            color: var(--rutgers-scarlet);
+            font-weight: 600;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-image img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--rutgers-scarlet);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hero-image img:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(204, 0, 51, 0.15);
+        }
+
+        /* --- About & Skills Section --- */
+        .about-container {
+            background-color: var(--bg-light-gray);
+            border-radius: 12px;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .skill-tag {
+            background-color: var(--bg-white);
+            color: var(--text-main);
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .skill-tag:hover {
+            border-color: var(--rutgers-scarlet);
+            color: var(--rutgers-scarlet);
+            box-shadow: 0 4px 10px rgba(204, 0, 51, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* --- Experience Timeline Section --- */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 20px;
+            width: 2px;
+            background-color: var(--border-color);
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 60px;
+            margin-bottom: 3rem;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 13px;
+            top: 5px;
+            width: 16px;
+            height: 16px;
+            background-color: var(--rutgers-scarlet);
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px var(--bg-white), 0 0 0 6px var(--rutgers-scarlet);
+        }
+
+        .timeline-content {
+            background-color: var(--bg-light-gray);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+            transition: transform 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .timeline-date {
+            font-size: 0.85rem;
+            color: var(--rutgers-scarlet);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        /* --- Contact Section --- */
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            background-color: var(--bg-light-gray);
+            transition: border-color 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--rutgers-scarlet);
+            background-color: var(--bg-white);
+        }
+
+        .contact-form textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background-color: var(--bg-light-gray);
+            color: var(--text-main);
+            border-radius: 50%;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: var(--rutgers-scarlet);
+            color: var(--bg-white);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(204, 0, 51, 0.2);
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--bg-light-gray);
+            border-top: 1px solid var(--border-color);
+            font-size: 0.9rem;
+        }
+
+        /* --- Mobile Responsiveness --- */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            #home {
+                flex-direction: column-reverse;
+                text-align: center;
+                padding-top: 100px;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-image img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sticky Navbar -->
+    <nav>
+        <div class="logo">Eleny<span>Gervacio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-text" data-aos="fade-right">
+            <h1>Hello, I'm <br><span>Eleny Gervacio</span></h1>
+            <h2>I am a <span class="typed-text"></span></h2>
+            <p>I'm a dedicated Honors College student at Rutgers Business School majoring in Accounting. I am focused on building practical solutions and eager to bridge the gap between classroom theory and real-world impact.</p>
+            <div class="hero-buttons">
+                <a href="#experience" class="btn btn-primary">View My Work</a>
+                <a href="#" class="btn btn-outline">Download Resume</a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+            <img src="Assets/ProfilePic.jpeg" alt="Eleny Gervacio - Professional Headshot">
+        </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-container" data-aos="fade-up" data-aos-delay="100">
+            <p>I am currently pursuing my Bachelor of Science in Accounting at Rutgers Business School and am an active member of the Honors College. With a 3.96 GPA, I thrive in environments that challenge me to think critically and collaboratively.</p>
+            <p>Beyond academics, I am actively involved in campus life, including the Rutgers Undergraduate Accounting Association, the Mexican American Student Association, and Girls Who Code.</p>
+            
+            <div class="skills-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-tag">Accounting</div>
+                <div class="skill-tag">Microsoft Excel & Access</div>
+                <div class="skill-tag">Python & HTML</div>
+                <div class="skill-tag">Fluent Spanish</div>
+                <div class="skill-tag">Conversational Korean</div>
+                <div class="skill-tag">Team Leadership</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="experience">
+        <h2 class="section-title" data-aos="fade-up">Experience & Education</h2>
+        <div class="timeline">
+            
+            <!-- Education Node -->
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Expected May 2028</span>
+                    <h3>Rutgers Business School, Honors College</h3>
+                    <h4>Bachelor of Science, Accounting</h4>
+                    <p>Maintained a 3.96 GPA and earned a spot on the Dean's List. On track to complete 150 credits by May 2028 for CPA eligibility. Active participant in Road to CPA and UFirst Mentoring.</p>
+                </div>
+            </div>
+
+            <!-- Experience Node 1 -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">September 2025 - Present</span>
+                    <h3>Livingston Dining Commons</h3>
+                    <h4>Student Worker</h4>
+                    <p>Partnered with supervisory staff to execute operational tasks and uphold strict service standards. Supported back-of-house operations, sanitized tables, and ensured food-prep stations remained organized and compliant with health guidelines.</p>
+                </div>
+            </div>
+
+            <!-- Experience Node 2 -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">3 Months</span>
+                    <h3>Amazon Fulfillment Center</h3>
+                    <h4>Warehouse Associate</h4>
+                    <p>Processed and meticulously inspected high volumes of customer returns to ensure strict product quality standards and inventory accuracy. Streamlined return workflows to consistently meet and exceed daily fulfillment quotas in a fast-paced environment.</p>
+                </div>
+            </div>
+            
+            <!-- Leadership Node -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">September 2021 - June 2024</span>
+                    <h3>Girls Who Code & Clifton High School Marching Band</h3>
+                    <h4>Treasurer & Band Manager</h4>
+                    <p>Instructed 20+ students in HTML, Python, and CSS while managing club finances. As Band Manager, facilitated rehearsals and managed sheet music and instrument logistics for over 80 students.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-container" data-aos="fade-up" data-aos-delay="100">
+            <form class="contact-form" action="https://formspree.io/f/your_formspree_endpoint" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/elenygervacio/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:eleny.gervacio@rutgers.edu" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Eleny Gervacio. Built with pride for Rutgers University.</p>
+    </footer>
+
+    <!-- JS Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- Initialization Scripts -->
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 100,
+            once: true
+        });
+
+        var typed = new Typed('.typed-text', {
+            strings: ['Accounting Student', 'Honors College Scholar', 'Future CPA', 'Problem Solver'],
+            typeSpeed: 50,
+            backSpeed: 30,
+            backDelay: 1500,
+            loop: true
+        });
+    </script>
+</body>
+</html>
