@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleny Gervacio | TCP CPA Prep Command Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <div class="user-profile">
+                <h1>ELENY GERVACIO</h1>
+                <p>CPA Candidate | TCP Discipline</p>
+            </div>
+            <nav class="tab-nav">
+                <button class="tab-btn active" onclick="showTab('dashboard')">Dashboard</button>
+                <button class="tab-btn" onclick="showTab('study')">Study Mode</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="dashboard" class="tab-content active">
+            <div class="kpi-grid">
+                <div class="card kpi-card green">
+                    <h3>Fiscal Streak</h3>
+                    <p id="stat-streak">0 Days</p>
+                    <span class="card-label">Consistency is Key</span>
+                </div>
+                <div class="card kpi-card gold">
+                    <h3>Billable Hours</h3>
+                    <p id="stat-xp">0 XP</p>
+                    <span class="card-label">Total Progress</span>
+                </div>
+                <div class="card kpi-card navy">
+                    <h3>Current Rank</h3>
+                    <p id="stat-rank">Staff Accountant</p>
+                    <span class="card-label">Level Up: 500 XP</span>
+                </div>
+            </div>
+
+            <div class="card blueprint-card">
+                <h2>2026 TCP Blueprint Mastery</h2>
+                <div class="mastery-container">
+                    <div class="mastery-item">
+                        <div class="mastery-label">
+                            <span>Area I: Individual Tax & PFP</span>
+                            <span id="pct-area-1">0%</span>
+                        </div>
+                        <div class="progress-bar"><div id="bar-area-1" class="fill" style="width: 0%"></div></div>
+                    </div>
+                    <div class="mastery-item">
+                        <div class="mastery-label">
+                            <span>Area II: Entity Tax Compliance</span>
+                            <span id="pct-area-2">0%</span>
+                        </div>
+                        <div class="progress-bar"><div id="bar-area-2" class="fill" style="width: 0%"></div></div>
+                    </div>
+                    <div class="mastery-item">
+                        <div class="mastery-label">
+                            <span>Area III: Entity Tax Planning</span>
+                            <span id="pct-area-3">0%</span>
+                        </div>
+                        <div class="progress-bar"><div id="bar-area-3" class="fill" style="width: 0%"></div></div>
+                    </div>
+                    <div class="mastery-item">
+                        <div class="mastery-label">
+                            <span>Area IV: Property Transactions</span>
+                            <span id="pct-area-4">0%</span>
+                        </div>
+                        <div class="progress-bar"><div id="bar-area-4" class="fill" style="width: 0%"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-center">
+                <button class="primary-btn" onclick="startSession()">Start Quick Audit (5 MCQs)</button>
+            </div>
+        </section>
+
+        <section id="study" class="tab-content">
+            <div class="card study-card">
+                <div class="study-header">
+                    <span id="q-category" class="badge">Category Loading...</span>
+                    <span id="q-timer" class="timer">00:00</span>
+                </div>
+                
+                <div id="question-box">
+                    <p id="question-text">Loading question from IRS archives...</p>
+                    <div id="options-container" class="options-grid">
+                        </div>
+                </div>
+
+                <div id="feedback-box" class="hidden">
+                    <div id="feedback-message"></div>
+                    <div id="explanation-text"></div>
+                    <button id="next-btn" class="primary-btn" onclick="nextQuestion()">Next Item &raquo;</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eleny Gervacio. Built with JavaScript & Accounting Logic.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

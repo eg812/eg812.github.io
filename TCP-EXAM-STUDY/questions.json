@@ -1,0 +1,1294 @@
+[
+    {
+        "id": "TCP-2026-001",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Gift Tax Annual Exclusion",
+        "question": "In 2026, a single taxpayer gives $25,000 cash to a friend. What is the taxable gift amount?",
+        "options": [
+            "$6,000",
+            "$25,000",
+            "$0",
+            "$10,000"
+        ],
+        "correct_answer": "$6,000",
+        "explanations": {
+            "$6,000": "Correct! The 2026 annual exclusion is $19,000. $25,000 - $19,000 = $6,000.",
+            "$25,000": "Incorrect. You must apply the annual exclusion.",
+            "$0": "Incorrect. The gift exceeds the exclusion.",
+            "$10,000": "Incorrect. The annual exclusion for 2026 is $19,000, not $15,000."
+        }
+    },
+    {
+        "id": "TCP-2026-002",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Gift Tax Annual Exclusion",
+        "question": "In 2026, a single taxpayer gives $30,000 cash to a friend. What is the taxable gift amount?",
+        "options": [
+            "$11,000",
+            "$30,000",
+            "$0",
+            "$15,000"
+        ],
+        "correct_answer": "$11,000",
+        "explanations": {
+            "$11,000": "Correct! The 2026 annual exclusion is $19,000. $30,000 - $19,000 = $11,000.",
+            "$30,000": "Incorrect. You must apply the annual exclusion.",
+            "$0": "Incorrect. The gift exceeds the exclusion.",
+            "$15,000": "Incorrect. The annual exclusion for 2026 is $19,000, not $15,000."
+        }
+    },
+    {
+        "id": "TCP-2026-003",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Gift Tax Annual Exclusion",
+        "question": "In 2026, a single taxpayer gives $35,000 cash to a friend. What is the taxable gift amount?",
+        "options": [
+            "$16,000",
+            "$35,000",
+            "$0",
+            "$20,000"
+        ],
+        "correct_answer": "$16,000",
+        "explanations": {
+            "$16,000": "Correct! The 2026 annual exclusion is $19,000. $35,000 - $19,000 = $16,000.",
+            "$35,000": "Incorrect. You must apply the annual exclusion.",
+            "$0": "Incorrect. The gift exceeds the exclusion.",
+            "$20,000": "Incorrect. The annual exclusion for 2026 is $19,000, not $15,000."
+        }
+    },
+    {
+        "id": "TCP-2026-004",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Gift Tax Annual Exclusion",
+        "question": "In 2026, a single taxpayer gives $42,000 cash to a friend. What is the taxable gift amount?",
+        "options": [
+            "$23,000",
+            "$42,000",
+            "$0",
+            "$27,000"
+        ],
+        "correct_answer": "$23,000",
+        "explanations": {
+            "$23,000": "Correct! The 2026 annual exclusion is $19,000. $42,000 - $19,000 = $23,000.",
+            "$42,000": "Incorrect. You must apply the annual exclusion.",
+            "$0": "Incorrect. The gift exceeds the exclusion.",
+            "$27,000": "Incorrect. The annual exclusion for 2026 is $19,000, not $15,000."
+        }
+    },
+    {
+        "id": "TCP-2026-005",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Gift Splitting",
+        "question": "In 2026, a married couple elects to split gifts and gives $40,000 to their nephew. What is the total taxable gift?",
+        "options": [
+            "$2,000",
+            "$21,000",
+            "$0",
+            "$40,000"
+        ],
+        "correct_answer": "$2,000",
+        "explanations": {
+            "$2,000": "Correct! Married couples can split gifts, allowing a $38,000 total exclusion ($19,000 x 2). $40,000 - $38,000 = $2,000.",
+            "$21,000": "Incorrect. This is the taxable amount if they did not elect to split gifts.",
+            "$0": "Incorrect. The gift exceeds the combined exclusion of $38,000.",
+            "$40,000": "Incorrect. The annual exclusion applies."
+        }
+    },
+    {
+        "id": "TCP-2026-006",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Gift Splitting",
+        "question": "In 2026, a married couple elects to split gifts and gives $45,000 to their nephew. What is the total taxable gift?",
+        "options": [
+            "$7,000",
+            "$26,000",
+            "$0",
+            "$45,000"
+        ],
+        "correct_answer": "$7,000",
+        "explanations": {
+            "$7,000": "Correct! Married couples can split gifts, allowing a $38,000 total exclusion ($19,000 x 2). $45,000 - $38,000 = $7,000.",
+            "$26,000": "Incorrect. This is the taxable amount if they did not elect to split gifts.",
+            "$0": "Incorrect. The gift exceeds the combined exclusion of $38,000.",
+            "$45,000": "Incorrect. The annual exclusion applies."
+        }
+    },
+    {
+        "id": "TCP-2026-007",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Gift Splitting",
+        "question": "In 2026, a married couple elects to split gifts and gives $50,000 to their nephew. What is the total taxable gift?",
+        "options": [
+            "$12,000",
+            "$31,000",
+            "$0",
+            "$50,000"
+        ],
+        "correct_answer": "$12,000",
+        "explanations": {
+            "$12,000": "Correct! Married couples can split gifts, allowing a $38,000 total exclusion ($19,000 x 2). $50,000 - $38,000 = $12,000.",
+            "$31,000": "Incorrect. This is the taxable amount if they did not elect to split gifts.",
+            "$0": "Incorrect. The gift exceeds the combined exclusion of $38,000.",
+            "$50,000": "Incorrect. The annual exclusion applies."
+        }
+    },
+    {
+        "id": "TCP-2026-008",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Gift Splitting",
+        "question": "In 2026, a married couple elects to split gifts and gives $60,000 to their nephew. What is the total taxable gift?",
+        "options": [
+            "$22,000",
+            "$41,000",
+            "$0",
+            "$60,000"
+        ],
+        "correct_answer": "$22,000",
+        "explanations": {
+            "$22,000": "Correct! Married couples can split gifts, allowing a $38,000 total exclusion ($19,000 x 2). $60,000 - $38,000 = $22,000.",
+            "$41,000": "Incorrect. This is the taxable amount if they did not elect to split gifts.",
+            "$0": "Incorrect. The gift exceeds the combined exclusion of $38,000.",
+            "$60,000": "Incorrect. The annual exclusion applies."
+        }
+    },
+    {
+        "id": "TCP-2026-009",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Estimated Tax Safe Harbor",
+        "question": "A taxpayer has a 2025 AGI of $160,000 and a 2025 tax liability of $40,000. To avoid an underpayment penalty for 2026 based solely on prior-year tax, what is the minimum estimated tax they must pay?",
+        "options": [
+            "$44,000",
+            "$40,000",
+            "$36,000",
+            "$0"
+        ],
+        "correct_answer": "$44,000",
+        "explanations": {
+            "$44,000": "Correct! For AGI over $150,000, the safe harbor is 110% of the prior year's tax liability. $40,000 x 1.10 = $44,000.",
+            "$40,000": "Incorrect. 100% of prior year tax only applies if AGI is $150,000 or less.",
+            "$36,000": "Incorrect. 90% is the rule for the CURRENT year's tax liability.",
+            "$0": "Incorrect. Estimated payments are required to avoid penalties."
+        }
+    },
+    {
+        "id": "TCP-2026-010",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Estimated Tax Safe Harbor",
+        "question": "A taxpayer has a 2025 AGI of $180,000 and a 2025 tax liability of $50,000. To avoid an underpayment penalty for 2026 based solely on prior-year tax, what is the minimum estimated tax they must pay?",
+        "options": [
+            "$55,000",
+            "$50,000",
+            "$45,000",
+            "$0"
+        ],
+        "correct_answer": "$55,000",
+        "explanations": {
+            "$55,000": "Correct! For AGI over $150,000, the safe harbor is 110% of the prior year's tax liability. $50,000 x 1.10 = $55,000.",
+            "$50,000": "Incorrect. 100% of prior year tax only applies if AGI is $150,000 or less.",
+            "$45,000": "Incorrect. 90% is the rule for the CURRENT year's tax liability.",
+            "$0": "Incorrect. Estimated payments are required to avoid penalties."
+        }
+    },
+    {
+        "id": "TCP-2026-011",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Estimated Tax Safe Harbor",
+        "question": "A taxpayer has a 2025 AGI of $200,000 and a 2025 tax liability of $60,000. To avoid an underpayment penalty for 2026 based solely on prior-year tax, what is the minimum estimated tax they must pay?",
+        "options": [
+            "$66,000",
+            "$60,000",
+            "$54,000",
+            "$0"
+        ],
+        "correct_answer": "$66,000",
+        "explanations": {
+            "$66,000": "Correct! For AGI over $150,000, the safe harbor is 110% of the prior year's tax liability. $60,000 x 1.10 = $66,000.",
+            "$60,000": "Incorrect. 100% of prior year tax only applies if AGI is $150,000 or less.",
+            "$54,000": "Incorrect. 90% is the rule for the CURRENT year's tax liability.",
+            "$0": "Incorrect. Estimated payments are required to avoid penalties."
+        }
+    },
+    {
+        "id": "TCP-2026-012",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Estimated Tax Safe Harbor",
+        "question": "A taxpayer has a 2025 AGI of $250,000 and a 2025 tax liability of $80,000. To avoid an underpayment penalty for 2026 based solely on prior-year tax, what is the minimum estimated tax they must pay?",
+        "options": [
+            "$88,000",
+            "$80,000",
+            "$72,000",
+            "$0"
+        ],
+        "correct_answer": "$88,000",
+        "explanations": {
+            "$88,000": "Correct! For AGI over $150,000, the safe harbor is 110% of the prior year's tax liability. $80,000 x 1.10 = $88,000.",
+            "$80,000": "Incorrect. 100% of prior year tax only applies if AGI is $150,000 or less.",
+            "$72,000": "Incorrect. 90% is the rule for the CURRENT year's tax liability.",
+            "$0": "Incorrect. Estimated payments are required to avoid penalties."
+        }
+    },
+    {
+        "id": "TCP-2026-013",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Trust DNI Calculation",
+        "question": "A simple trust has taxable interest of $20,000, tax-exempt interest of $5,000, and a fiduciary fee of $3,000. What is the Distributable Net Income (DNI)?",
+        "options": [
+            "$22,000",
+            "$17,000",
+            "$20,000",
+            "$25,000"
+        ],
+        "correct_answer": "$22,000",
+        "explanations": {
+            "$22,000": "Correct! DNI includes taxable interest and tax-exempt interest, less fiduciary fees.",
+            "$17,000": "Incorrect. Tax-exempt interest is included in DNI.",
+            "$20,000": "Incorrect. You must deduct the fiduciary fee and include tax-exempt interest.",
+            "$25,000": "Incorrect. You must deduct the fiduciary fee."
+        }
+    },
+    {
+        "id": "TCP-2026-014",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Trust DNI Calculation",
+        "question": "A simple trust has taxable interest of $25,000, tax-exempt interest of $6,000, and a fiduciary fee of $4,000. What is the Distributable Net Income (DNI)?",
+        "options": [
+            "$27,000",
+            "$21,000",
+            "$25,000",
+            "$31,000"
+        ],
+        "correct_answer": "$27,000",
+        "explanations": {
+            "$27,000": "Correct! DNI includes taxable interest and tax-exempt interest, less fiduciary fees.",
+            "$21,000": "Incorrect. Tax-exempt interest is included in DNI.",
+            "$25,000": "Incorrect. You must deduct the fiduciary fee and include tax-exempt interest.",
+            "$31,000": "Incorrect. You must deduct the fiduciary fee."
+        }
+    },
+    {
+        "id": "TCP-2026-015",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Trust DNI Calculation",
+        "question": "A simple trust has taxable interest of $30,000, tax-exempt interest of $7,000, and a fiduciary fee of $5,000. What is the Distributable Net Income (DNI)?",
+        "options": [
+            "$32,000",
+            "$25,000",
+            "$30,000",
+            "$37,000"
+        ],
+        "correct_answer": "$32,000",
+        "explanations": {
+            "$32,000": "Correct! DNI includes taxable interest and tax-exempt interest, less fiduciary fees.",
+            "$25,000": "Incorrect. Tax-exempt interest is included in DNI.",
+            "$30,000": "Incorrect. You must deduct the fiduciary fee and include tax-exempt interest.",
+            "$37,000": "Incorrect. You must deduct the fiduciary fee."
+        }
+    },
+    {
+        "id": "TCP-2026-016",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Trust DNI Calculation",
+        "question": "A simple trust has taxable interest of $35,000, tax-exempt interest of $8,000, and a fiduciary fee of $6,000. What is the Distributable Net Income (DNI)?",
+        "options": [
+            "$37,000",
+            "$29,000",
+            "$35,000",
+            "$43,000"
+        ],
+        "correct_answer": "$37,000",
+        "explanations": {
+            "$37,000": "Correct! DNI includes taxable interest and tax-exempt interest, less fiduciary fees.",
+            "$29,000": "Incorrect. Tax-exempt interest is included in DNI.",
+            "$35,000": "Incorrect. You must deduct the fiduciary fee and include tax-exempt interest.",
+            "$43,000": "Incorrect. You must deduct the fiduciary fee."
+        }
+    },
+    {
+        "id": "TCP-2026-017",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "529 Plan Distributions",
+        "question": "A taxpayer takes a $15,000 distribution from a 529 plan, which includes $3,000 of earnings. They use $10,000 for qualified education expenses. What is the 10% penalty?",
+        "options": [
+            "$100",
+            "$500",
+            "$300",
+            "$0"
+        ],
+        "correct_answer": "$100",
+        "explanations": {
+            "$100": "Correct! The 10% penalty only applies to the earnings portion of the non-qualified distribution.",
+            "$500": "Incorrect. The penalty is on the non-qualified earnings, not the total non-qualified distribution.",
+            "$300": "Incorrect. This is the penalty if the entire distribution was non-qualified.",
+            "$0": "Incorrect. A 10% penalty applies to the non-qualified earnings."
+        }
+    },
+    {
+        "id": "TCP-2026-018",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "529 Plan Distributions",
+        "question": "A taxpayer takes a $20,000 distribution from a 529 plan, which includes $4,000 of earnings. They use $12,000 for qualified education expenses. What is the 10% penalty?",
+        "options": [
+            "$160",
+            "$800",
+            "$400",
+            "$0"
+        ],
+        "correct_answer": "$160",
+        "explanations": {
+            "$160": "Correct! The 10% penalty only applies to the earnings portion of the non-qualified distribution.",
+            "$800": "Incorrect. The penalty is on the non-qualified earnings, not the total non-qualified distribution.",
+            "$400": "Incorrect. This is the penalty if the entire distribution was non-qualified.",
+            "$0": "Incorrect. A 10% penalty applies to the non-qualified earnings."
+        }
+    },
+    {
+        "id": "TCP-2026-019",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "529 Plan Distributions",
+        "question": "A taxpayer takes a $25,000 distribution from a 529 plan, which includes $5,000 of earnings. They use $15,000 for qualified education expenses. What is the 10% penalty?",
+        "options": [
+            "$200",
+            "$1,000",
+            "$500",
+            "$0"
+        ],
+        "correct_answer": "$200",
+        "explanations": {
+            "$200": "Correct! The 10% penalty only applies to the earnings portion of the non-qualified distribution.",
+            "$1,000": "Incorrect. The penalty is on the non-qualified earnings, not the total non-qualified distribution.",
+            "$500": "Incorrect. This is the penalty if the entire distribution was non-qualified.",
+            "$0": "Incorrect. A 10% penalty applies to the non-qualified earnings."
+        }
+    },
+    {
+        "id": "TCP-2026-020",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "529 Plan Distributions",
+        "question": "A taxpayer takes a $30,000 distribution from a 529 plan, which includes $6,000 of earnings. They use $20,000 for qualified education expenses. What is the 10% penalty?",
+        "options": [
+            "$200",
+            "$1,000",
+            "$600",
+            "$0"
+        ],
+        "correct_answer": "$200",
+        "explanations": {
+            "$200": "Correct! The 10% penalty only applies to the earnings portion of the non-qualified distribution.",
+            "$1,000": "Incorrect. The penalty is on the non-qualified earnings, not the total non-qualified distribution.",
+            "$600": "Incorrect. This is the penalty if the entire distribution was non-qualified.",
+            "$0": "Incorrect. A 10% penalty applies to the non-qualified earnings."
+        }
+    },
+    {
+        "id": "TCP-2026-021",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Charitable Contributions",
+        "question": "A taxpayer has an AGI of $100,000. They make a massive cash donation to a qualifying public charity. What is the maximum charitable deduction they can claim this year?",
+        "options": [
+            "$60,000",
+            "$50,000",
+            "$30,000",
+            "$0"
+        ],
+        "correct_answer": "$60,000",
+        "explanations": {
+            "$60,000": "Correct! The maximum deduction for cash contributions to a public charity is 60% of AGI.",
+            "$50,000": "Incorrect. 50% is the historical limit or applies to specific property.",
+            "$30,000": "Incorrect. 30% generally applies to capital gain property.",
+            "$0": "Incorrect. Charitable contributions are deductible up to the limit."
+        }
+    },
+    {
+        "id": "TCP-2026-022",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Charitable Contributions",
+        "question": "A taxpayer has an AGI of $150,000. They make a massive cash donation to a qualifying public charity. What is the maximum charitable deduction they can claim this year?",
+        "options": [
+            "$90,000",
+            "$75,000",
+            "$45,000",
+            "$0"
+        ],
+        "correct_answer": "$90,000",
+        "explanations": {
+            "$90,000": "Correct! The maximum deduction for cash contributions to a public charity is 60% of AGI.",
+            "$75,000": "Incorrect. 50% is the historical limit or applies to specific property.",
+            "$45,000": "Incorrect. 30% generally applies to capital gain property.",
+            "$0": "Incorrect. Charitable contributions are deductible up to the limit."
+        }
+    },
+    {
+        "id": "TCP-2026-023",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Charitable Contributions",
+        "question": "A taxpayer has an AGI of $200,000. They make a massive cash donation to a qualifying public charity. What is the maximum charitable deduction they can claim this year?",
+        "options": [
+            "$120,000",
+            "$100,000",
+            "$60,000",
+            "$0"
+        ],
+        "correct_answer": "$120,000",
+        "explanations": {
+            "$120,000": "Correct! The maximum deduction for cash contributions to a public charity is 60% of AGI.",
+            "$100,000": "Incorrect. 50% is the historical limit or applies to specific property.",
+            "$60,000": "Incorrect. 30% generally applies to capital gain property.",
+            "$0": "Incorrect. Charitable contributions are deductible up to the limit."
+        }
+    },
+    {
+        "id": "TCP-2026-024",
+        "blueprint_area": "Area I: Individual Planning",
+        "topic": "Charitable Contributions",
+        "question": "A taxpayer has an AGI of $250,000. They make a massive cash donation to a qualifying public charity. What is the maximum charitable deduction they can claim this year?",
+        "options": [
+            "$150,000",
+            "$125,000",
+            "$75,000",
+            "$0"
+        ],
+        "correct_answer": "$150,000",
+        "explanations": {
+            "$150,000": "Correct! The maximum deduction for cash contributions to a public charity is 60% of AGI.",
+            "$125,000": "Incorrect. 50% is the historical limit or applies to specific property.",
+            "$75,000": "Incorrect. 30% generally applies to capital gain property.",
+            "$0": "Incorrect. Charitable contributions are deductible up to the limit."
+        }
+    },
+    {
+        "id": "TCP-2026-025",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Partnership Distributions",
+        "question": "A partner has an outside basis of $10,000. They receive a non-liquidating distribution of $15,000 in cash. What is the recognized gain and the ending outside basis?",
+        "options": [
+            "$5,000 Gain, $0 Basis",
+            "$0 Gain, $0 Basis",
+            "$5,000 Gain, $10,000 Basis",
+            "$0 Gain, -$5,000 Basis"
+        ],
+        "correct_answer": "$5,000 Gain, $0 Basis",
+        "explanations": {
+            "$5,000 Gain, $0 Basis": "Correct! Cash distributions in excess of basis trigger capital gain, and basis reduces to zero.",
+            "$0 Gain, $0 Basis": "Incorrect. You must recognize gain for cash received in excess of basis.",
+            "$5,000 Gain, $10,000 Basis": "Incorrect. Basis must be reduced by the distribution.",
+            "$0 Gain, -$5,000 Basis": "Incorrect. Tax basis can never drop below zero."
+        }
+    },
+    {
+        "id": "TCP-2026-026",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Partnership Distributions",
+        "question": "A partner has an outside basis of $20,000. They receive a non-liquidating distribution of $25,000 in cash. What is the recognized gain and the ending outside basis?",
+        "options": [
+            "$5,000 Gain, $0 Basis",
+            "$0 Gain, $0 Basis",
+            "$5,000 Gain, $20,000 Basis",
+            "$0 Gain, -$5,000 Basis"
+        ],
+        "correct_answer": "$5,000 Gain, $0 Basis",
+        "explanations": {
+            "$5,000 Gain, $0 Basis": "Correct! Cash distributions in excess of basis trigger capital gain, and basis reduces to zero.",
+            "$0 Gain, $0 Basis": "Incorrect. You must recognize gain for cash received in excess of basis.",
+            "$5,000 Gain, $20,000 Basis": "Incorrect. Basis must be reduced by the distribution.",
+            "$0 Gain, -$5,000 Basis": "Incorrect. Tax basis can never drop below zero."
+        }
+    },
+    {
+        "id": "TCP-2026-027",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Partnership Distributions",
+        "question": "A partner has an outside basis of $30,000. They receive a non-liquidating distribution of $38,000 in cash. What is the recognized gain and the ending outside basis?",
+        "options": [
+            "$8,000 Gain, $0 Basis",
+            "$0 Gain, $0 Basis",
+            "$8,000 Gain, $30,000 Basis",
+            "$0 Gain, -$8,000 Basis"
+        ],
+        "correct_answer": "$8,000 Gain, $0 Basis",
+        "explanations": {
+            "$8,000 Gain, $0 Basis": "Correct! Cash distributions in excess of basis trigger capital gain, and basis reduces to zero.",
+            "$0 Gain, $0 Basis": "Incorrect. You must recognize gain for cash received in excess of basis.",
+            "$8,000 Gain, $30,000 Basis": "Incorrect. Basis must be reduced by the distribution.",
+            "$0 Gain, -$8,000 Basis": "Incorrect. Tax basis can never drop below zero."
+        }
+    },
+    {
+        "id": "TCP-2026-028",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Partnership Distributions",
+        "question": "A partner has an outside basis of $40,000. They receive a non-liquidating distribution of $52,000 in cash. What is the recognized gain and the ending outside basis?",
+        "options": [
+            "$12,000 Gain, $0 Basis",
+            "$0 Gain, $0 Basis",
+            "$12,000 Gain, $40,000 Basis",
+            "$0 Gain, -$12,000 Basis"
+        ],
+        "correct_answer": "$12,000 Gain, $0 Basis",
+        "explanations": {
+            "$12,000 Gain, $0 Basis": "Correct! Cash distributions in excess of basis trigger capital gain, and basis reduces to zero.",
+            "$0 Gain, $0 Basis": "Incorrect. You must recognize gain for cash received in excess of basis.",
+            "$12,000 Gain, $40,000 Basis": "Incorrect. Basis must be reduced by the distribution.",
+            "$0 Gain, -$12,000 Basis": "Incorrect. Tax basis can never drop below zero."
+        }
+    },
+    {
+        "id": "TCP-2026-029",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Partnership Property Distributions",
+        "question": "A partner has an outside basis of $50,000. They receive a non-liquidating distribution of $10,000 cash and property with an inside basis of $45,000. What is the partner's basis in the distributed property?",
+        "options": [
+            "$40,000",
+            "$45,000",
+            "$50,000",
+            "$0"
+        ],
+        "correct_answer": "$40,000",
+        "explanations": {
+            "$40,000": "Correct! Outside basis is first reduced by cash ($10,000), leaving $40,000. The property takes this remaining basis, dropping outside basis to zero.",
+            "$45,000": "Incorrect. In a non-liquidating distribution, property basis cannot exceed the partner's remaining outside basis.",
+            "$50,000": "Incorrect. You must reduce the outside basis by the cash received first.",
+            "$0": "Incorrect. The property retains basis up to the partner's remaining outside basis."
+        }
+    },
+    {
+        "id": "TCP-2026-030",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Partnership Property Distributions",
+        "question": "A partner has an outside basis of $60,000. They receive a non-liquidating distribution of $15,000 cash and property with an inside basis of $50,000. What is the partner's basis in the distributed property?",
+        "options": [
+            "$45,000",
+            "$50,000",
+            "$60,000",
+            "$0"
+        ],
+        "correct_answer": "$45,000",
+        "explanations": {
+            "$45,000": "Correct! Outside basis is first reduced by cash ($15,000), leaving $45,000. The property takes this remaining basis, dropping outside basis to zero.",
+            "$50,000": "Incorrect. In a non-liquidating distribution, property basis cannot exceed the partner's remaining outside basis.",
+            "$60,000": "Incorrect. You must reduce the outside basis by the cash received first.",
+            "$0": "Incorrect. The property retains basis up to the partner's remaining outside basis."
+        }
+    },
+    {
+        "id": "TCP-2026-031",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Partnership Property Distributions",
+        "question": "A partner has an outside basis of $70,000. They receive a non-liquidating distribution of $20,000 cash and property with an inside basis of $60,000. What is the partner's basis in the distributed property?",
+        "options": [
+            "$50,000",
+            "$60,000",
+            "$70,000",
+            "$0"
+        ],
+        "correct_answer": "$50,000",
+        "explanations": {
+            "$50,000": "Correct! Outside basis is first reduced by cash ($20,000), leaving $50,000. The property takes this remaining basis, dropping outside basis to zero.",
+            "$60,000": "Incorrect. In a non-liquidating distribution, property basis cannot exceed the partner's remaining outside basis.",
+            "$70,000": "Incorrect. You must reduce the outside basis by the cash received first.",
+            "$0": "Incorrect. The property retains basis up to the partner's remaining outside basis."
+        }
+    },
+    {
+        "id": "TCP-2026-032",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Partnership Property Distributions",
+        "question": "A partner has an outside basis of $80,000. They receive a non-liquidating distribution of $25,000 cash and property with an inside basis of $70,000. What is the partner's basis in the distributed property?",
+        "options": [
+            "$55,000",
+            "$70,000",
+            "$80,000",
+            "$0"
+        ],
+        "correct_answer": "$55,000",
+        "explanations": {
+            "$55,000": "Correct! Outside basis is first reduced by cash ($25,000), leaving $55,000. The property takes this remaining basis, dropping outside basis to zero.",
+            "$70,000": "Incorrect. In a non-liquidating distribution, property basis cannot exceed the partner's remaining outside basis.",
+            "$80,000": "Incorrect. You must reduce the outside basis by the cash received first.",
+            "$0": "Incorrect. The property retains basis up to the partner's remaining outside basis."
+        }
+    },
+    {
+        "id": "TCP-2026-033",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Section 754 Election",
+        "question": "A new partner purchases a 25% interest in a partnership for $100,000. The partnership's total inside basis in assets is $300,000. With a 754 election in effect, what is the new partner's 743(b) adjustment?",
+        "options": [
+            "$25,000",
+            "$100,000",
+            "$75,000",
+            "$0"
+        ],
+        "correct_answer": "$25,000",
+        "explanations": {
+            "$25,000": "Correct! The 743(b) adjustment is the purchase price ($100,000) minus the 25% share of inside basis ($75,000).",
+            "$100,000": "Incorrect. This is the total purchase price.",
+            "$75,000": "Incorrect. This is the partner's share of inside basis.",
+            "$0": "Incorrect. A Section 754 election specifically triggers this adjustment."
+        }
+    },
+    {
+        "id": "TCP-2026-034",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Section 754 Election",
+        "question": "A new partner purchases a 25% interest in a partnership for $150,000. The partnership's total inside basis in assets is $400,000. With a 754 election in effect, what is the new partner's 743(b) adjustment?",
+        "options": [
+            "$50,000",
+            "$150,000",
+            "$100,000",
+            "$0"
+        ],
+        "correct_answer": "$50,000",
+        "explanations": {
+            "$50,000": "Correct! The 743(b) adjustment is the purchase price ($150,000) minus the 25% share of inside basis ($100,000).",
+            "$150,000": "Incorrect. This is the total purchase price.",
+            "$100,000": "Incorrect. This is the partner's share of inside basis.",
+            "$0": "Incorrect. A Section 754 election specifically triggers this adjustment."
+        }
+    },
+    {
+        "id": "TCP-2026-035",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Section 754 Election",
+        "question": "A new partner purchases a 25% interest in a partnership for $200,000. The partnership's total inside basis in assets is $500,000. With a 754 election in effect, what is the new partner's 743(b) adjustment?",
+        "options": [
+            "$75,000",
+            "$200,000",
+            "$125,000",
+            "$0"
+        ],
+        "correct_answer": "$75,000",
+        "explanations": {
+            "$75,000": "Correct! The 743(b) adjustment is the purchase price ($200,000) minus the 25% share of inside basis ($125,000).",
+            "$200,000": "Incorrect. This is the total purchase price.",
+            "$125,000": "Incorrect. This is the partner's share of inside basis.",
+            "$0": "Incorrect. A Section 754 election specifically triggers this adjustment."
+        }
+    },
+    {
+        "id": "TCP-2026-036",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Section 754 Election",
+        "question": "A new partner purchases a 25% interest in a partnership for $250,000. The partnership's total inside basis in assets is $600,000. With a 754 election in effect, what is the new partner's 743(b) adjustment?",
+        "options": [
+            "$100,000",
+            "$250,000",
+            "$150,000",
+            "$0"
+        ],
+        "correct_answer": "$100,000",
+        "explanations": {
+            "$100,000": "Correct! The 743(b) adjustment is the purchase price ($250,000) minus the 25% share of inside basis ($150,000).",
+            "$250,000": "Incorrect. This is the total purchase price.",
+            "$150,000": "Incorrect. This is the partner's share of inside basis.",
+            "$0": "Incorrect. A Section 754 election specifically triggers this adjustment."
+        }
+    },
+    {
+        "id": "TCP-2026-037",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "S-Corp Stock Basis",
+        "question": "An S-Corp shareholder has a beginning basis of $20,000. Their share of ordinary income is $10,000. They receive a cash distribution of $35,000. Assuming no accumulated E&P, what is the taxable capital gain?",
+        "options": [
+            "$5,000",
+            "$0",
+            "$35,000",
+            "$30,000"
+        ],
+        "correct_answer": "$5,000",
+        "explanations": {
+            "$5,000": "Correct! Basis increases by income to $30,000. The distribution exceeds basis by $5,000, triggering capital gain.",
+            "$0": "Incorrect. The distribution exceeded the adjusted stock basis.",
+            "$35,000": "Incorrect. The distribution is tax-free up to the stock basis.",
+            "$30,000": "Incorrect. This is the basis before the distribution, not the gain."
+        }
+    },
+    {
+        "id": "TCP-2026-038",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "S-Corp Stock Basis",
+        "question": "An S-Corp shareholder has a beginning basis of $30,000. Their share of ordinary income is $15,000. They receive a cash distribution of $50,000. Assuming no accumulated E&P, what is the taxable capital gain?",
+        "options": [
+            "$5,000",
+            "$0",
+            "$50,000",
+            "$45,000"
+        ],
+        "correct_answer": "$5,000",
+        "explanations": {
+            "$5,000": "Correct! Basis increases by income to $45,000. The distribution exceeds basis by $5,000, triggering capital gain.",
+            "$0": "Incorrect. The distribution exceeded the adjusted stock basis.",
+            "$50,000": "Incorrect. The distribution is tax-free up to the stock basis.",
+            "$45,000": "Incorrect. This is the basis before the distribution, not the gain."
+        }
+    },
+    {
+        "id": "TCP-2026-039",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "S-Corp Stock Basis",
+        "question": "An S-Corp shareholder has a beginning basis of $40,000. Their share of ordinary income is $20,000. They receive a cash distribution of $65,000. Assuming no accumulated E&P, what is the taxable capital gain?",
+        "options": [
+            "$5,000",
+            "$0",
+            "$65,000",
+            "$60,000"
+        ],
+        "correct_answer": "$5,000",
+        "explanations": {
+            "$5,000": "Correct! Basis increases by income to $60,000. The distribution exceeds basis by $5,000, triggering capital gain.",
+            "$0": "Incorrect. The distribution exceeded the adjusted stock basis.",
+            "$65,000": "Incorrect. The distribution is tax-free up to the stock basis.",
+            "$60,000": "Incorrect. This is the basis before the distribution, not the gain."
+        }
+    },
+    {
+        "id": "TCP-2026-040",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "S-Corp Stock Basis",
+        "question": "An S-Corp shareholder has a beginning basis of $50,000. Their share of ordinary income is $25,000. They receive a cash distribution of $80,000. Assuming no accumulated E&P, what is the taxable capital gain?",
+        "options": [
+            "$5,000",
+            "$0",
+            "$80,000",
+            "$75,000"
+        ],
+        "correct_answer": "$5,000",
+        "explanations": {
+            "$5,000": "Correct! Basis increases by income to $75,000. The distribution exceeds basis by $5,000, triggering capital gain.",
+            "$0": "Incorrect. The distribution exceeded the adjusted stock basis.",
+            "$80,000": "Incorrect. The distribution is tax-free up to the stock basis.",
+            "$75,000": "Incorrect. This is the basis before the distribution, not the gain."
+        }
+    },
+    {
+        "id": "TCP-2026-041",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Corporate E&P",
+        "question": "A C-Corp has Current E&P of $20,000 and a deficit in Accumulated E&P of $-5,000. It distributes $25,000 to its sole shareholder. What amount is taxable as a dividend?",
+        "options": [
+            "$20,000",
+            "$15,000",
+            "$25,000",
+            "$0"
+        ],
+        "correct_answer": "$20,000",
+        "explanations": {
+            "$20,000": "Correct! Distributions are taxable as dividends to the extent of Current E&P, even if Accumulated E&P is negative.",
+            "$15,000": "Incorrect. You do not net a negative Accumulated E&P against positive Current E&P for dividend classification.",
+            "$25,000": "Incorrect. The distribution is only a dividend up to E&P; the rest is a return of capital.",
+            "$0": "Incorrect. Current E&P is positive, so a dividend is recognized."
+        }
+    },
+    {
+        "id": "TCP-2026-042",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Corporate E&P",
+        "question": "A C-Corp has Current E&P of $30,000 and a deficit in Accumulated E&P of $-10,000. It distributes $40,000 to its sole shareholder. What amount is taxable as a dividend?",
+        "options": [
+            "$30,000",
+            "$20,000",
+            "$40,000",
+            "$0"
+        ],
+        "correct_answer": "$30,000",
+        "explanations": {
+            "$30,000": "Correct! Distributions are taxable as dividends to the extent of Current E&P, even if Accumulated E&P is negative.",
+            "$20,000": "Incorrect. You do not net a negative Accumulated E&P against positive Current E&P for dividend classification.",
+            "$40,000": "Incorrect. The distribution is only a dividend up to E&P; the rest is a return of capital.",
+            "$0": "Incorrect. Current E&P is positive, so a dividend is recognized."
+        }
+    },
+    {
+        "id": "TCP-2026-043",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Corporate E&P",
+        "question": "A C-Corp has Current E&P of $40,000 and a deficit in Accumulated E&P of $-15,000. It distributes $50,000 to its sole shareholder. What amount is taxable as a dividend?",
+        "options": [
+            "$40,000",
+            "$25,000",
+            "$50,000",
+            "$0"
+        ],
+        "correct_answer": "$40,000",
+        "explanations": {
+            "$40,000": "Correct! Distributions are taxable as dividends to the extent of Current E&P, even if Accumulated E&P is negative.",
+            "$25,000": "Incorrect. You do not net a negative Accumulated E&P against positive Current E&P for dividend classification.",
+            "$50,000": "Incorrect. The distribution is only a dividend up to E&P; the rest is a return of capital.",
+            "$0": "Incorrect. Current E&P is positive, so a dividend is recognized."
+        }
+    },
+    {
+        "id": "TCP-2026-044",
+        "blueprint_area": "Area II: Entity Compliance",
+        "topic": "Corporate E&P",
+        "question": "A C-Corp has Current E&P of $50,000 and a deficit in Accumulated E&P of $-20,000. It distributes $60,000 to its sole shareholder. What amount is taxable as a dividend?",
+        "options": [
+            "$50,000",
+            "$30,000",
+            "$60,000",
+            "$0"
+        ],
+        "correct_answer": "$50,000",
+        "explanations": {
+            "$50,000": "Correct! Distributions are taxable as dividends to the extent of Current E&P, even if Accumulated E&P is negative.",
+            "$30,000": "Incorrect. You do not net a negative Accumulated E&P against positive Current E&P for dividend classification.",
+            "$60,000": "Incorrect. The distribution is only a dividend up to E&P; the rest is a return of capital.",
+            "$0": "Incorrect. Current E&P is positive, so a dividend is recognized."
+        }
+    },
+    {
+        "id": "TCP-2026-045",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "Section 351 Formation",
+        "question": "A shareholder contributes property (Basis: $50,000, FMV: $100,000) to form a new corporation and receives 100% of the stock plus $10,000 in cash (boot). What is the recognized gain?",
+        "options": [
+            "$10,000",
+            "$60,000",
+            "$0",
+            "$50,000"
+        ],
+        "correct_answer": "$10,000",
+        "explanations": {
+            "$10,000": "Correct! In a Section 351 exchange, gain is recognized to the extent of boot (cash) received.",
+            "$60,000": "Incorrect. This is the realized gain. Section 351 defers gain unless boot is received.",
+            "$0": "Incorrect. The receipt of boot triggers gain recognition.",
+            "$50,000": "Incorrect. This is the basis of the property contributed."
+        }
+    },
+    {
+        "id": "TCP-2026-046",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "Section 351 Formation",
+        "question": "A shareholder contributes property (Basis: $60,000, FMV: $120,000) to form a new corporation and receives 100% of the stock plus $15,000 in cash (boot). What is the recognized gain?",
+        "options": [
+            "$15,000",
+            "$75,000",
+            "$0",
+            "$60,000"
+        ],
+        "correct_answer": "$15,000",
+        "explanations": {
+            "$15,000": "Correct! In a Section 351 exchange, gain is recognized to the extent of boot (cash) received.",
+            "$75,000": "Incorrect. This is the realized gain. Section 351 defers gain unless boot is received.",
+            "$0": "Incorrect. The receipt of boot triggers gain recognition.",
+            "$60,000": "Incorrect. This is the basis of the property contributed."
+        }
+    },
+    {
+        "id": "TCP-2026-047",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "Section 351 Formation",
+        "question": "A shareholder contributes property (Basis: $70,000, FMV: $140,000) to form a new corporation and receives 100% of the stock plus $20,000 in cash (boot). What is the recognized gain?",
+        "options": [
+            "$20,000",
+            "$90,000",
+            "$0",
+            "$70,000"
+        ],
+        "correct_answer": "$20,000",
+        "explanations": {
+            "$20,000": "Correct! In a Section 351 exchange, gain is recognized to the extent of boot (cash) received.",
+            "$90,000": "Incorrect. This is the realized gain. Section 351 defers gain unless boot is received.",
+            "$0": "Incorrect. The receipt of boot triggers gain recognition.",
+            "$70,000": "Incorrect. This is the basis of the property contributed."
+        }
+    },
+    {
+        "id": "TCP-2026-048",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "Section 351 Formation",
+        "question": "A shareholder contributes property (Basis: $80,000, FMV: $160,000) to form a new corporation and receives 100% of the stock plus $25,000 in cash (boot). What is the recognized gain?",
+        "options": [
+            "$25,000",
+            "$105,000",
+            "$0",
+            "$80,000"
+        ],
+        "correct_answer": "$25,000",
+        "explanations": {
+            "$25,000": "Correct! In a Section 351 exchange, gain is recognized to the extent of boot (cash) received.",
+            "$105,000": "Incorrect. This is the realized gain. Section 351 defers gain unless boot is received.",
+            "$0": "Incorrect. The receipt of boot triggers gain recognition.",
+            "$80,000": "Incorrect. This is the basis of the property contributed."
+        }
+    },
+    {
+        "id": "TCP-2026-049",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "Corporate Liquidations",
+        "question": "A C-Corp completely liquidates and distributes an asset with a basis of $20,000 and an FMV of $60,000 to its shareholder. What is the gain recognized by the corporation?",
+        "options": [
+            "$40,000",
+            "$0",
+            "$60,000",
+            "$20,000"
+        ],
+        "correct_answer": "$40,000",
+        "explanations": {
+            "$40,000": "Correct! Under Section 336, a liquidating corporation recognizes gain as if property were sold at FMV ($60,000 - $20,000 = $40,000).",
+            "$0": "Incorrect. Corporate liquidations are generally taxable events for both the corporation and the shareholder.",
+            "$60,000": "Incorrect. Gain is based on FMV minus adjusted basis.",
+            "$20,000": "Incorrect. This is the property's adjusted basis."
+        }
+    },
+    {
+        "id": "TCP-2026-050",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "Corporate Liquidations",
+        "question": "A C-Corp completely liquidates and distributes an asset with a basis of $30,000 and an FMV of $80,000 to its shareholder. What is the gain recognized by the corporation?",
+        "options": [
+            "$50,000",
+            "$0",
+            "$80,000",
+            "$30,000"
+        ],
+        "correct_answer": "$50,000",
+        "explanations": {
+            "$50,000": "Correct! Under Section 336, a liquidating corporation recognizes gain as if property were sold at FMV ($80,000 - $30,000 = $50,000).",
+            "$0": "Incorrect. Corporate liquidations are generally taxable events for both the corporation and the shareholder.",
+            "$80,000": "Incorrect. Gain is based on FMV minus adjusted basis.",
+            "$30,000": "Incorrect. This is the property's adjusted basis."
+        }
+    },
+    {
+        "id": "TCP-2026-051",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "Corporate Liquidations",
+        "question": "A C-Corp completely liquidates and distributes an asset with a basis of $40,000 and an FMV of $100,000 to its shareholder. What is the gain recognized by the corporation?",
+        "options": [
+            "$60,000",
+            "$0",
+            "$100,000",
+            "$40,000"
+        ],
+        "correct_answer": "$60,000",
+        "explanations": {
+            "$60,000": "Correct! Under Section 336, a liquidating corporation recognizes gain as if property were sold at FMV ($100,000 - $40,000 = $60,000).",
+            "$0": "Incorrect. Corporate liquidations are generally taxable events for both the corporation and the shareholder.",
+            "$100,000": "Incorrect. Gain is based on FMV minus adjusted basis.",
+            "$40,000": "Incorrect. This is the property's adjusted basis."
+        }
+    },
+    {
+        "id": "TCP-2026-052",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "Corporate Liquidations",
+        "question": "A C-Corp completely liquidates and distributes an asset with a basis of $50,000 and an FMV of $120,000 to its shareholder. What is the gain recognized by the corporation?",
+        "options": [
+            "$70,000",
+            "$0",
+            "$120,000",
+            "$50,000"
+        ],
+        "correct_answer": "$70,000",
+        "explanations": {
+            "$70,000": "Correct! Under Section 336, a liquidating corporation recognizes gain as if property were sold at FMV ($120,000 - $50,000 = $70,000).",
+            "$0": "Incorrect. Corporate liquidations are generally taxable events for both the corporation and the shareholder.",
+            "$120,000": "Incorrect. Gain is based on FMV minus adjusted basis.",
+            "$50,000": "Incorrect. This is the property's adjusted basis."
+        }
+    },
+    {
+        "id": "TCP-2026-053",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "S-Corp Eligibility",
+        "question": "Which of the following events will immediately terminate an S-Corporation election?",
+        "options": [
+            "A non-resident alien buys 10 shares.",
+            "An estate holds shares for 6 months.",
+            "A resident alien buys shares.",
+            "The corporation issues non-voting stock."
+        ],
+        "correct_answer": "A non-resident alien buys 10 shares.",
+        "explanations": {
+            "A non-resident alien buys 10 shares.": "Correct! This is a terminating event for an S-Corporation.",
+            "An estate holds shares for 6 months.": "Incorrect. This is a permissible event for an S-Corporation.",
+            "A resident alien buys shares.": "Incorrect. This is a permissible event for an S-Corporation.",
+            "The corporation issues non-voting stock.": "Incorrect. This is a permissible event for an S-Corporation."
+        }
+    },
+    {
+        "id": "TCP-2026-054",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "S-Corp Eligibility",
+        "question": "Which of the following events will immediately terminate an S-Corporation election?",
+        "options": [
+            "A C-Corporation buys 5 shares.",
+            "A QSST trust is established to hold shares.",
+            "An estate holds shares for 6 months.",
+            "A resident alien buys shares."
+        ],
+        "correct_answer": "A C-Corporation buys 5 shares.",
+        "explanations": {
+            "A C-Corporation buys 5 shares.": "Correct! This is a terminating event for an S-Corporation.",
+            "A QSST trust is established to hold shares.": "Incorrect. This is a permissible event for an S-Corporation.",
+            "An estate holds shares for 6 months.": "Incorrect. This is a permissible event for an S-Corporation.",
+            "A resident alien buys shares.": "Incorrect. This is a permissible event for an S-Corporation."
+        }
+    },
+    {
+        "id": "TCP-2026-055",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "S-Corp Eligibility",
+        "question": "Which of the following events will immediately terminate an S-Corporation election?",
+        "options": [
+            "The 101st individual shareholder is added.",
+            "The corporation issues non-voting stock.",
+            "A resident alien buys shares.",
+            "An estate holds shares for 6 months."
+        ],
+        "correct_answer": "The 101st individual shareholder is added.",
+        "explanations": {
+            "The 101st individual shareholder is added.": "Correct! This is a terminating event for an S-Corporation.",
+            "The corporation issues non-voting stock.": "Incorrect. This is a permissible event for an S-Corporation.",
+            "A resident alien buys shares.": "Incorrect. This is a permissible event for an S-Corporation.",
+            "An estate holds shares for 6 months.": "Incorrect. This is a permissible event for an S-Corporation."
+        }
+    },
+    {
+        "id": "TCP-2026-056",
+        "blueprint_area": "Area III: Entity Planning",
+        "topic": "S-Corp Eligibility",
+        "question": "Which of the following events will immediately terminate an S-Corporation election?",
+        "options": [
+            "A partnership acquires 1 share.",
+            "A QSST trust is established to hold shares.",
+            "An estate holds shares for 6 months.",
+            "A resident alien buys shares."
+        ],
+        "correct_answer": "A partnership acquires 1 share.",
+        "explanations": {
+            "A partnership acquires 1 share.": "Correct! This is a terminating event for an S-Corporation.",
+            "A QSST trust is established to hold shares.": "Incorrect. This is a permissible event for an S-Corporation.",
+            "An estate holds shares for 6 months.": "Incorrect. This is a permissible event for an S-Corporation.",
+            "A resident alien buys shares.": "Incorrect. This is a permissible event for an S-Corporation."
+        }
+    },
+    {
+        "id": "TCP-2026-057",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Section 1031 Exchange",
+        "question": "A taxpayer exchanges an investment warehouse (Basis: $150,000) for a similar warehouse (FMV: $200,000) and receives $20,000 in cash boot. What is the recognized gain?",
+        "options": [
+            "$20,000",
+            "$70,000",
+            "$0",
+            "$50,000"
+        ],
+        "correct_answer": "$20,000",
+        "explanations": {
+            "$20,000": "Correct! Under Section 1031, recognized gain is the lesser of realized gain or boot received.",
+            "$70,000": "Incorrect. This is the realized gain, which is deferred to the extent no boot is received.",
+            "$0": "Incorrect. The receipt of boot (cash) triggers gain recognition.",
+            "$50,000": "Incorrect. You must include the boot in the realized gain calculation."
+        }
+    },
+    {
+        "id": "TCP-2026-058",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Section 1031 Exchange",
+        "question": "A taxpayer exchanges an investment warehouse (Basis: $160,000) for a similar warehouse (FMV: $220,000) and receives $30,000 in cash boot. What is the recognized gain?",
+        "options": [
+            "$30,000",
+            "$90,000",
+            "$0",
+            "$60,000"
+        ],
+        "correct_answer": "$30,000",
+        "explanations": {
+            "$30,000": "Correct! Under Section 1031, recognized gain is the lesser of realized gain or boot received.",
+            "$90,000": "Incorrect. This is the realized gain, which is deferred to the extent no boot is received.",
+            "$0": "Incorrect. The receipt of boot (cash) triggers gain recognition.",
+            "$60,000": "Incorrect. You must include the boot in the realized gain calculation."
+        }
+    },
+    {
+        "id": "TCP-2026-059",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Section 1031 Exchange",
+        "question": "A taxpayer exchanges an investment warehouse (Basis: $170,000) for a similar warehouse (FMV: $240,000) and receives $40,000 in cash boot. What is the recognized gain?",
+        "options": [
+            "$40,000",
+            "$110,000",
+            "$0",
+            "$70,000"
+        ],
+        "correct_answer": "$40,000",
+        "explanations": {
+            "$40,000": "Correct! Under Section 1031, recognized gain is the lesser of realized gain or boot received.",
+            "$110,000": "Incorrect. This is the realized gain, which is deferred to the extent no boot is received.",
+            "$0": "Incorrect. The receipt of boot (cash) triggers gain recognition.",
+            "$70,000": "Incorrect. You must include the boot in the realized gain calculation."
+        }
+    },
+    {
+        "id": "TCP-2026-060",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Section 1031 Exchange",
+        "question": "A taxpayer exchanges an investment warehouse (Basis: $180,000) for a similar warehouse (FMV: $260,000) and receives $50,000 in cash boot. What is the recognized gain?",
+        "options": [
+            "$50,000",
+            "$130,000",
+            "$0",
+            "$80,000"
+        ],
+        "correct_answer": "$50,000",
+        "explanations": {
+            "$50,000": "Correct! Under Section 1031, recognized gain is the lesser of realized gain or boot received.",
+            "$130,000": "Incorrect. This is the realized gain, which is deferred to the extent no boot is received.",
+            "$0": "Incorrect. The receipt of boot (cash) triggers gain recognition.",
+            "$80,000": "Incorrect. You must include the boot in the realized gain calculation."
+        }
+    },
+    {
+        "id": "TCP-2026-061",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Involuntary Conversions",
+        "question": "A taxpayer's building (Basis: $60,000) is destroyed by fire. They receive $100,000 in insurance proceeds and reinvest $90,000 into a new building. What is the recognized gain?",
+        "options": [
+            "$10,000",
+            "$40,000",
+            "$0",
+            "$100,000"
+        ],
+        "correct_answer": "$10,000",
+        "explanations": {
+            "$10,000": "Correct! Gain is recognized to the extent the insurance proceeds are NOT reinvested in replacement property.",
+            "$40,000": "Incorrect. This is the total realized gain, which is partially deferred.",
+            "$0": "Incorrect. Because not all proceeds were reinvested, some gain is recognized.",
+            "$100,000": "Incorrect. Gain is based on proceeds minus basis, limited by un-reinvested funds."
+        }
+    },
+    {
+        "id": "TCP-2026-062",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Involuntary Conversions",
+        "question": "A taxpayer's building (Basis: $80,000) is destroyed by fire. They receive $150,000 in insurance proceeds and reinvest $130,000 into a new building. What is the recognized gain?",
+        "options": [
+            "$20,000",
+            "$70,000",
+            "$0",
+            "$150,000"
+        ],
+        "correct_answer": "$20,000",
+        "explanations": {
+            "$20,000": "Correct! Gain is recognized to the extent the insurance proceeds are NOT reinvested in replacement property.",
+            "$70,000": "Incorrect. This is the total realized gain, which is partially deferred.",
+            "$0": "Incorrect. Because not all proceeds were reinvested, some gain is recognized.",
+            "$150,000": "Incorrect. Gain is based on proceeds minus basis, limited by un-reinvested funds."
+        }
+    },
+    {
+        "id": "TCP-2026-063",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Involuntary Conversions",
+        "question": "A taxpayer's building (Basis: $100,000) is destroyed by fire. They receive $200,000 in insurance proceeds and reinvest $170,000 into a new building. What is the recognized gain?",
+        "options": [
+            "$30,000",
+            "$100,000",
+            "$0",
+            "$200,000"
+        ],
+        "correct_answer": "$30,000",
+        "explanations": {
+            "$30,000": "Correct! Gain is recognized to the extent the insurance proceeds are NOT reinvested in replacement property.",
+            "$100,000": "Incorrect. This is the total realized gain, which is partially deferred.",
+            "$0": "Incorrect. Because not all proceeds were reinvested, some gain is recognized.",
+            "$200,000": "Incorrect. Gain is based on proceeds minus basis, limited by un-reinvested funds."
+        }
+    },
+    {
+        "id": "TCP-2026-064",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Involuntary Conversions",
+        "question": "A taxpayer's building (Basis: $120,000) is destroyed by fire. They receive $250,000 in insurance proceeds and reinvest $220,000 into a new building. What is the recognized gain?",
+        "options": [
+            "$30,000",
+            "$130,000",
+            "$0",
+            "$250,000"
+        ],
+        "correct_answer": "$30,000",
+        "explanations": {
+            "$30,000": "Correct! Gain is recognized to the extent the insurance proceeds are NOT reinvested in replacement property.",
+            "$130,000": "Incorrect. This is the total realized gain, which is partially deferred.",
+            "$0": "Incorrect. Because not all proceeds were reinvested, some gain is recognized.",
+            "$250,000": "Incorrect. Gain is based on proceeds minus basis, limited by un-reinvested funds."
+        }
+    },
+    {
+        "id": "TCP-2026-065",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Wash Sales",
+        "question": "A taxpayer buys 100 shares of stock for $50 each. They sell all 100 shares for $40 each. Two weeks later, they repurchase 50 shares for $45 each. What is the disallowed wash sale loss?",
+        "options": [
+            "$500",
+            "$1,000",
+            "$0",
+            "$250"
+        ],
+        "correct_answer": "$500",
+        "explanations": {
+            "$500": "Correct! Half the shares were repurchased within 30 days, so half the loss is disallowed under the wash sale rule.",
+            "$1,000": "Incorrect. This is the total realized loss, but only the portion repurchased is disallowed.",
+            "$0": "Incorrect. A wash sale occurred because substantially identical stock was purchased within 30 days.",
+            "$250": "Incorrect calculation."
+        }
+    },
+    {
+        "id": "TCP-2026-066",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Wash Sales",
+        "question": "A taxpayer buys 100 shares of stock for $60 each. They sell all 100 shares for $45 each. Two weeks later, they repurchase 50 shares for $50 each. What is the disallowed wash sale loss?",
+        "options": [
+            "$750",
+            "$1,500",
+            "$0",
+            "$250"
+        ],
+        "correct_answer": "$750",
+        "explanations": {
+            "$750": "Correct! Half the shares were repurchased within 30 days, so half the loss is disallowed under the wash sale rule.",
+            "$1,500": "Incorrect. This is the total realized loss, but only the portion repurchased is disallowed.",
+            "$0": "Incorrect. A wash sale occurred because substantially identical stock was purchased within 30 days.",
+            "$250": "Incorrect calculation."
+        }
+    },
+    {
+        "id": "TCP-2026-067",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Wash Sales",
+        "question": "A taxpayer buys 100 shares of stock for $70 each. They sell all 100 shares for $50 each. Two weeks later, they repurchase 50 shares for $55 each. What is the disallowed wash sale loss?",
+        "options": [
+            "$1,000",
+            "$2,000",
+            "$0",
+            "$250"
+        ],
+        "correct_answer": "$1,000",
+        "explanations": {
+            "$1,000": "Correct! Half the shares were repurchased within 30 days, so half the loss is disallowed under the wash sale rule.",
+            "$2,000": "Incorrect. This is the total realized loss, but only the portion repurchased is disallowed.",
+            "$0": "Incorrect. A wash sale occurred because substantially identical stock was purchased within 30 days.",
+            "$250": "Incorrect calculation."
+        }
+    },
+    {
+        "id": "TCP-2026-068",
+        "blueprint_area": "Area IV: Property Transactions",
+        "topic": "Wash Sales",
+        "question": "A taxpayer buys 100 shares of stock for $80 each. They sell all 100 shares for $60 each. Two weeks later, they repurchase 50 shares for $65 each. What is the disallowed wash sale loss?",
+        "options": [
+            "$1,000",
+            "$2,000",
+            "$0",
+            "$250"
+        ],
+        "correct_answer": "$1,000",
+        "explanations": {
+            "$1,000": "Correct! Half the shares were repurchased within 30 days, so half the loss is disallowed under the wash sale rule.",
+            "$2,000": "Incorrect. This is the total realized loss, but only the portion repurchased is disallowed.",
+            "$0": "Incorrect. A wash sale occurred because substantially identical stock was purchased within 30 days.",
+            "$250": "Incorrect calculation."
+        }
+    }
+]
